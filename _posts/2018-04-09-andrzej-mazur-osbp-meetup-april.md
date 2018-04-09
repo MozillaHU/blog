@@ -2,7 +2,7 @@
 layout: default
 title: Andrzej Mazur (JS13KGames) @ OSBP Meetup April Edition
 description: Hear the takeaways from 6 years of organizing the JS13Games competition from Andrzej Mazur!
-social_image: /assets/img/2018-04-09-andrzej-mazur-osbp-meetup-april/mazursocial.jpg
+social_image: '/assets/img/2018-04-09-andrzej-mazur-osbp-meetup-april/mazursocial.jpg'
 ---
 
 <em><a href="#english">scroll down for the English version</a></em>
@@ -18,7 +18,7 @@ A HTML5 játékok Varsói pápája ezúttal valamivel kevésbé technikai oldal�
 
 
 
-![](/assets/img/2018-04-09-andrzej-mazur-osbp-meetup-april/mazurhdr.jpg)
+![]({{ '/assets/img/2018-04-09-andrzej-mazur-osbp-meetup-april/mazurhdr.jpg' | relative_url }})
 
 
 
