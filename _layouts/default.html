@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="{{ site.lang | default: "en-US" }}">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>{% if page.title %}{{ page.title | append: " | " }}{% endif %}{{ site.title }}</title>
+  <meta name="description" content="{{ page.description | default: site.description }}" />
+  <meta name="keywords" content="rust, hungary, community, magyarország, közösség, meetup, mozilla" />
+
+
+  <!-- Social: Twitter -->
+  <meta name="twitter:card" content="{{ page.social_card_type | default: "summary" }}" />
+  <meta name="twitter:site" content="@{{ site.social_twitter }}" />
+  <meta name="twitter:title" content="{{ page.title | default: site.title }}" />
+  <meta name="twitter:description" content="{{ page.description | default: site.description }}" />
+  <meta name="twitter:image:src" content="{{ page.social_image | default: site.social_image | absolute_url }}" />
+
+  <!-- Social: Facebook / Open Graph -->
+  <meta property="og:title" content="" />
+  <meta property="og:site_name" content="{{ site.title }}" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="{{ page.url | prepend: site.baseurl | prepend: site.url }}" />
+  <meta property="og:image" content="{{ page.social_image | default: site.social_image | absolute_url }}" />
+  <meta property="og:description" content="{{ page.description | default: site.description }}" />
+
+
+  <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+</head>
+
+<body>
+
+<header>
+    <div class="logo">{{ site.title }}</div>
+    <nav class="menu"><ul>
+      <li><a href="/"><span>Főoldal</span><span>Home</span></a></li>
+      {% if site.nav.news %}<li><a href="{{ site.nav.news }}"><span>Hírek</span><span>News</span></a></li>{% endif %}
+      {% if site.nav.meetup %}<li><a href="{{ site.nav.meetup }}"><span>Meetup</span></a></li>{% endif %}
+    </ul></nav>
+</header>
+<main>
+
+{{ content }}
+
+</main>
+
+
+<footer>
+  <span class="credits">
+    Maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>
+    &mdash; hosted on <a href="{{ site.github.repository_url }}">GitHub Pages</a></span>
+  <hr>
+  <span class="coc">
+    Everyone at any activities organized by Mozilla Hungary is subject to the
+    <a href="https://www.mozilla.org/about/governance/policies/participation/">Mozilla Community Participation Guidelines</a>
+    and is expected to behave in full accordance of these rules.
+  </span>
+</footer>
+
+</body>
+</html>

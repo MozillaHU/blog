@@ -1,0 +1,20 @@
+# slug (permalink) format - /:year/:month/:day/:title/
+permalink: pretty
+
+# metadata
+title: Mozilla Hungary
+description: >
+  The blog of the Hungarian Mozilla community.
+metaKeywords: "mozilla, hungary, budapest, meetup, open-source"
+
+# social sharing
+social_twitter: mozillahu
+social_image: "/assets/favicons/logo.png"
+
+# nav
+nav:
+  news: "https://twitter.com/MozillaHU"
+  meetup: "https://www.meetup.com/opensourcebudapest/"
+
+# misc/housekeeping
+exclude: ["/vendor"]

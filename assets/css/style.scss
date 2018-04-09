@@ -1,0 +1,117 @@
+---
+---
+//Rust-lang.hu accent color
+//$acentl-color: #957351;
+$accent-color: #d70022;
+$accent-color-highlight: #dd7a16;
+
+body {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 1.6em;
+}
+
+a {
+	color: $accent-color;
+	text-decoration: none;
+}
+a:hover, a:active, a:focus {
+	text-decoration: underline;
+	color: $accent-color-highlight;
+}
+
+h1 {
+	font-weight: bold;
+	font-size: 1.6em;
+	line-height: 1.2em;
+}
+
+.center {
+	text-align: center;
+}
+.full {
+	width: 100%;
+}
+main {
+	max-width: 36em;
+	margin: auto;
+	padding-bottom: 20vh;
+}
+img {
+	max-width: 100%;
+	max-height: 50vh;
+	margin: 1em auto;
+	display: block;
+}
+img + strong {
+	display: block;
+	text-align: center;
+}
+blockquote {
+	border-left: .2em solid #DDE;
+	padding-left: .3em;
+	margin-left: 0;
+}
+
+header {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 10vh;
+	padding-top: 1vh;
+	padding-bottom: 2vh;
+	margin-bottom: 5vh;
+	border-bottom: 2px solid #DDE;
+}
+header .logo {
+	font-size: 0;
+	background: url('/assets/logo.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 10vh;
+	height: 10vh;
+}
+
+header .menu ul {
+	display: flex;
+	list-style-type: none;
+}
+header .menu ul li {
+	margin-right: 1em;
+	text-align: center;
+	line-height: 1.1;
+}
+header .menu span {
+	display: block;
+}
+header .menu span:first-child {
+	font-weight: bold;
+	opacity: .9;
+}
+header .menu span:last-child {
+	opacity: .75;
+}
+header .menu ul a {
+	text-decoration: none;
+	color: black;
+}
+header .menu ul a:hover span,
+header .menu ul a:active span,
+header .menu ul a:focus span {
+	opacity: 1;
+}
+
+
+footer {
+  font-size: 70%;
+  color: #666;
+  text-align: center;
+  width: 90vw;
+  margin: auto;
+  max-width: 36em;
+
+	> hr {
+	  margin: .25em 0;
+	  border: 1px solid #CCC;
+	}
+}
