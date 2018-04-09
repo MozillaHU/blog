@@ -29,7 +29,7 @@ A HTML5 játékok Varsói pápája ezúttal valamivel kevésbé technikai oldal�
 
 The Open Source Budapest meetup welcomes a very special guest on this upcoming Tuesday evening. [It was way back in 2014](https://webconf.hu/2014/program/#ii2014_02) that Andrzej Mazur was here in Budapest — back then he was speaking at the Hungarian Web Conference, about the browser's Gamepad API and Firefox OS (yes, it was _that_ long ago).
 
-The HTML5 Gaming Guru comes straight from Warsaw to shine the light of a slightly less technical side of webby games — he will be telling us what can one learn during 6 whole years (and counting!) of organizing a [programming competition for tiny HTML5 games](http://js13kgames.com/). Exciting, isn't it?! Hope you see you there!
+The HTML5 Gaming Guru comes straight from Warsaw to shine the light of a slightly less technical side of webby games — he will be telling us what can one learn during 6 whole years (and counting!) of organizing a [programming competition for tiny HTML5 games](http://js13kgames.com/). Exciting, isn't it?! Hope to see you there!
 
 > The event is hosted at the [Mozilla Hungary Open Source Community Space](https://goo.gl/maps/UbJTQv26uYR2) (D18 - Budapest VI., Dessewffy street 18.) on Tuesday, April 10. Gates open at 17:30.  
 > [More info on the OSBP meetup event page!](https://www.meetup.com/opensourcebudapest/events/249493309/)
