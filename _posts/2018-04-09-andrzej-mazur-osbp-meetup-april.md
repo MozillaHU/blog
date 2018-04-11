@@ -33,3 +33,9 @@ The HTML5 Gaming Guru comes straight from Warsaw to shine the light of a slightl
 
 > The event is hosted at the [Mozilla Hungary Open Source Community Space](https://goo.gl/maps/UbJTQv26uYR2) (D18 - Budapest VI., Dessewffy street 18.) on Tuesday, April 10. Gates open at 17:30.  
 > [More info on the OSBP meetup event page!](https://www.meetup.com/opensourcebudapest/events/249493309/)
+
+
+
+
+# Talk Recording
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gWFIdUhhIN0" frameborder="0" style="margin: auto;" allow="autoplay; encrypted-media" allowfullscreen></iframe>
