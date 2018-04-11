@@ -38,4 +38,4 @@ The HTML5 Gaming Guru comes straight from Warsaw to shine the light of a slightl
 
 
 # Talk Recording
-<iframe width="560" height="315" src="https://www.youtube.com/embed/gWFIdUhhIN0" frameborder="0" style="margin: auto;" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="720" height="400" src="https://www.youtube.com/embed/gWFIdUhhIN0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>

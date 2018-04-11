@@ -36,7 +36,7 @@
 <header>
     <div class="logo">{{ site.title }}</div>
     <nav class="menu"><ul>
-      <li><a href="/"><span>Főoldal</span><span>Home</span></a></li>
+      <li><a href="{{ post.url | relative_url }}"><span>Főoldal</span><span>Home</span></a></li>
       {% if site.nav.news %}<li><a href="{{ site.nav.news }}"><span>Hírek</span><span>News</span></a></li>{% endif %}
       {% if site.nav.meetup %}<li><a href="{{ site.nav.meetup }}"><span>Meetup</span></a></li>{% endif %}
     </ul></nav>
